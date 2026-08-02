@@ -1,0 +1,57 @@
+/* Загальні стилі для всіх сторінок */
+body {
+    background-color: lightpink;
+    text-align: center;
+    font-family: Arial;
+}
+
+
+/* Головна сторінка */
+#title {
+    color: darkred;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cat-photo {
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+
+/* Галерея */
+.gallery-title {
+    color: darkred;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-photo {
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+
+/* Контакти */
+.contact-title {
+    color: darkred;
+    font-size: 32px;
+}
+
+.contact-text {
+    font-size: 22px;
+}
